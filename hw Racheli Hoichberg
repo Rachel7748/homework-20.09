@@ -1,0 +1,41 @@
+number=int(input('please enter a number'))
+i=number
+while number>0:
+    if number>i:
+        i=number
+    number=int(input('please enter a number'))
+    if i>0:
+        print('the biggest value is', i)
+    else:
+        print('because you enter negative number/zero progress is ended')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
